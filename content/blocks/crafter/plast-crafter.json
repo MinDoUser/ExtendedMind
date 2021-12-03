@@ -1,0 +1,34 @@
+{
+"type": "GenericCrafter",
+"localizedName": "Plastanium Crafter",
+"description": "Improved Plastanium Compressor.",
+"size": 3,
+"craftTime": 51,
+"hasPower": true,
+"liquidCapacity": 40,
+"outputItem": "plastanium/2",
+"updateEffect": "smeltsmoke",
+"craftEffect": "purify",
+"consumes": {
+  "power": 2,
+  "items": {
+    "items": [
+      "titanium/4",
+      "coal/1"
+    ]
+  },
+  "liquid": {
+    "liquid": "oil",
+    "amount": 0.4
+  }
+},
+"requirements": [
+  "lead/120",
+  "silicon/80",
+  "plastanium/20",
+  "metaglass/60",
+  "titanium/12"
+  ]
+"category": "crafting",
+"research": "plastanium-compressor"
+}
