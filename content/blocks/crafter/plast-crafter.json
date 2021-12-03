@@ -6,15 +6,16 @@
 "craftTime": 51,
 "hasPower": true,
 "liquidCapacity": 40,
-"outputItem": "plastanium/2",
+  "itemCapacity": 20,
+"outputItem": "plastanium/6",
 "updateEffect": "smeltsmoke",
 "craftEffect": "purify",
 "consumes": {
   "power": 2,
   "items": {
     "items": [
-      "titanium/4",
-      "coal/1"
+      "titanium/8",
+      "coal/2"
     ]
   },
   "liquid": {
