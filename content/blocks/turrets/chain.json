@@ -4,6 +4,8 @@
     "description": "Fast turret. Good defense",
     "details": "Because of the very high rate of shooting, it's used to defend aircraft near important structures. It isn't boostable and is not affected by overdrivers."
     "health": 620,
+    "acceptCoolant": false,
+     "canOverdrive": false,
     "targetAir": true,
     "size": 2,
     "reloadTime": 5,
