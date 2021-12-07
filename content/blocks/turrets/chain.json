@@ -14,8 +14,8 @@
     "shootShake": 2,
     "ammoUseEffect": "casing2",
     "inaccuracy": 0,
-    "shots": 1,
-    "spread": 0,
+    "shots": 2,
+    "spread": 4,
     "rotateSpeed": 1.4,
     "shootSound": "pew",
 	"ammoTypes": {
