@@ -1,0 +1,18 @@
+{
+    "localizedName": "TanGen",
+    "description": "Light and flexible material, used mainly for powerblocks.",
+    "details": "When some people tried to make Gold, they founded 'TanGen'.",
+    "hardness": 1,
+    "cost": 1.2,
+    "flammability": 0.35
+    "explosiveness": 0.06
+    "charge": 0.2,
+    "color": "a2bad9",
+    "research": {
+    "parent": "graphite",
+    "requirements": [
+    "metaglass/200",
+    "graphite/120"
+  ]
+  }
+}
