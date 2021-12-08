@@ -3,7 +3,8 @@
 function health(){
   let player = Vars.player.unit();
      if(player != null && player.type != null){
-  return "Health: "+player.health+"/"+player.maxHealth
+	let health = Math.floor(player.health);
+  	return "Health: "+health+"/"+player.maxHealth
      }
 };
 
