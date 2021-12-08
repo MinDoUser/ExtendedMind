@@ -1,3 +1,5 @@
+### Language
+[English](https://github.com/MinDoUser/ExtendedMind/blob/main/README.md) | [Deutsch](https://github.com/MinDoUser/ExtendedMind/blob/main/readme/De_ReadMe.md)
 # ExtendedMind
 Mod created by **MinDoUser**
 ## Content
