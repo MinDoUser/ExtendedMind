@@ -1,6 +1,6 @@
 //require(Nothing);
 let health = 0;
-function health(){
+function healthFunction(){
   let player = Vars.player.unit();
      if(player != null && player.type != null){
 	     if(player.health < 1000){
@@ -22,7 +22,7 @@ Events.on(ClientLoadEvent, () => {
 		let m = Vars.mobile;
      let healthUI = Vars.ui.hudGroup.children.get(5).children.get(m ? 2 : 0).children.get(0).children.get(0).children.get(0);
          healthUI.row();
-	       healthUI.label(() => health())
+	       healthUI.label(() => healthFunction())
 	            .visible(true)
 	            .touchable(Touchable.disabled)
 	            .name("Health")
