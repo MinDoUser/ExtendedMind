@@ -1,10 +1,16 @@
 //require(Nothing);
-
+let health = 0;
 function health(){
   let player = Vars.player.unit();
      if(player != null && player.type != null){
-	let health = Math.floor(player.health);
-  	return "Health: "+health+"/"+player.maxHealth
+	     if(player.health < 1000){
+		health = Math.floor(player.health);
+		     return "Health: "+health+"/"+player.maxHealth
+	     }else if(player.health >= 1000){
+		health = Math.round(player.health, 1000);
+		let MaxHealth = Math.round(player.maxHealth, 1000);
+		return "Health: "+health+"k/"+MaxHealth + "k"
+	     };
      }
 };
 
