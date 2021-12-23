@@ -1,4 +1,4 @@
-//require(Nothing);
+require("blocks/firework");
 let health = 0;
 function healthFunction(){
   let player = Vars.player.unit();
