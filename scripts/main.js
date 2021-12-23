@@ -9,7 +9,7 @@ function healthFunction(){
 	     health = lib.getRound(player.health);
 	     maxHealth = lib.getRound(player.maxHealth);
 	     return "Health: " health + "/" + maxHealth
-     }
+     };
 }
 
 let canAdd = true;
