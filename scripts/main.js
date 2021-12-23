@@ -8,9 +8,9 @@ function healthFunction(){
      if(player != null && player.type != null){
 	     health = lib.getRound(player.health);
 	     maxHealth = lib.getRound(player.maxHealth);
-	     return "Health: " health + "/" + maxHealth;
+	     return "Health: " health + "/" + maxHealth
      }
-};
+}
 
 let canAdd = true;
 
