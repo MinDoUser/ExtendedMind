@@ -1,6 +1,5 @@
 const range = 150;
 
-/* Unfinish!
 const DU = extendContent(Unloader, "DUnloader", {
     drawPlace(x, y, rotation, valid){
         Drawf.dashCircle(x * Vars.tilesize + this.offset, y * Vars.tilesize + this.offset, range, Pal.accent);
@@ -21,17 +20,17 @@ DU.buildType = prov(() => {
                 if(this.power.status > 0.999 && this.sortItem != null && this.acceptItem(this, this.sortItem) > 0 && other.items.get(this.sortItem) > 0){
                     this.handleItem(this, this.sortItem);
                     Fx.itemTransfer.at(other.x, other.y, 2, this.sortItem.color, this);
-                    other.items.clear();
+                    other..items.remove(this.sortItem, 1);
                 }
             }));
         },
         acceptItem(source, item){
-            return item == this.sortItem && this.items.get(item) < 1;
+            return false;
         },
         drawConfigure(){
             this.super$drawConfigure();
-            Vars.indexer.eachBlock(this, range, boolf(other => other.block instanceof ItemTurret), cons(other => {
-                if(this.sortItem != null && other.block.ammoTypes.get(this.sortItem) != null) Drawf.square(other.x, other.y, other.block.size * Vars.tilesize / 2 + 1, this.sortItem.color);
+            Vars.indexer.eachBlock(this, range, boolf(other => other.unloadable), cons(other => {
+                if(this.sortItem != null && otheritems.get(this.sortItem) > 0) Drawf.square(other.x, other.y, other.block.size * Vars.tilesize / 2 + 1, this.sortItem.color);
             }));
             Drawf.dashCircle(this.x, this.y, range, Pal.accent);
         },
@@ -39,4 +38,4 @@ DU.buildType = prov(() => {
             return this.power.status > 0.999 ? BlockStatus.active : BlockStatus.noInput;
         },
     }, DU);
-});*/
+});
