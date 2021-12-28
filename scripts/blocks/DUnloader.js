@@ -20,7 +20,7 @@ DU.buildType = prov(() => {
                 if(this.power.status > 0.999 && this.sortItem != null && this.acceptItem(this, this.sortItem) > 0 && other.items.get(this.sortItem) > 0){
                     this.handleItem(this, this.sortItem);
                     Fx.itemTransfer.at(other.x, other.y, 2, this.sortItem.color, this);
-                    other..items.remove(this.sortItem, 1);
+                    other.items.remove(this.sortItem, 1);
                 }
             }));
         },
