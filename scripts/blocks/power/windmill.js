@@ -33,7 +33,7 @@ windmill.buildType = () => extend(PowerGenerator.GeneratorBuild, windmill, {
             }
         }
      this.eff = 1/this.counter;
-     this.counter = 0,
+     this.counter = 0;
        if(this.productionEfficiency > 0){
          this.productionEfficiency = this.eff
        }else{this.productionEfficiency = 0};
