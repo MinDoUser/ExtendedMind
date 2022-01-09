@@ -1,4 +1,4 @@
-name: "Windmill"
+name: "Windmill\n [scarlet]WIP!"
 description: "Creates power from wind. \n\n[stat]Less efficient, if there are too many blocks around it."
 health: 220
 size: 2
@@ -14,3 +14,4 @@ requirements:
 research: core-shard
 alwaysUnlocked: true
 category: power
+BuildVisibility: hidden
