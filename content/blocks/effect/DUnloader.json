@@ -1,5 +1,5 @@
 {	
-    "localizedName": "Distance Unloader",
+    "localizedName": "Distance Unloader\n [scarlet]WIP!",
     "description": "Unloads the choosen items from all blocks in range, that can be unloaded. \n Uses power.",
 
 	"size": 1,
@@ -17,4 +17,5 @@
 	],
 	"category": "effect",
 	"research": "unloader",
+	"BuildVisibility": "shown",
 }
