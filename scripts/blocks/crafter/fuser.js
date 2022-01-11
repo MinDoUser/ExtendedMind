@@ -18,7 +18,7 @@ fuser.buildType = () => extend(GenericCrafter.GenericCrafterBuild, fuser, {
       Draw.alpha(Mathf.tan(this.progress, 40, 4 / 3 * 4));
       Draw.rect(this.itemRegion, this.x, this.y);
       Draw.alpha(1);
-      Lines.circle(x, y, 2 *Mathf.tan(this.progress, 40, 4 / 3 * 4)*5);
+      Lines.circle(this.x, this.y, 2 *Mathf.tan(this.progress, 40, 4 / 3 * 4)*3);
       Draw.rect(this.topRegion, this.x, this.y);
     }
 })
