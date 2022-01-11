@@ -1,2 +1,1 @@
-//require("blocks/power/windmill");
-//require("blocks/DUnloader");
+require("blocks/crafter/fuser");
