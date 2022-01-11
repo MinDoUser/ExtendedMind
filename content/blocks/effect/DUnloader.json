@@ -17,5 +17,5 @@
 	],
 	"category": "effect",
 	"research": "unloader",
-	"BuildVisibility": "shown",
+	"buildVisibility": "hidden",
 }
