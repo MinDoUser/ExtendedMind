@@ -1,15 +1,15 @@
 const fuser = extend(GenericCrafter, "tangen-fuser", {
     load(){
         this.super$load()
-        this.region = Core.atlas.find(this.name + "-bottom")
-        this.topRegion = Core.atlas.find(this.name + "-top")
-        this.itemRegion = Core.atlas.find(this.name + "-item")
+        this.region = Core.atlas.find(this.name + "-bottom");
+        this.topRegion = Core.atlas.find(this.name + "-top");
+        this.itemRegion = Core.atlas.find(this.name + "-item");
     },
   	icons: function(){
 	    return [
-		    Core.atlas.find(this.name + "-bottom")
+		    Core.atlas.find(this.name + "-bottom"),
 		    Core.atlas.find(this.name + "-top")
-	    ];
+	    ]
     }
 })
 fuser.buildType = () => extend(GenericCrafter.GenericCrafterBuild, fuser, {
