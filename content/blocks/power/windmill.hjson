@@ -14,4 +14,4 @@ requirements:
 research: core-shard
 alwaysUnlocked: true
 category: power
-BuildVisibility: hidden
+buildVisibility: hidden
