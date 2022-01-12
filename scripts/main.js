@@ -3,23 +3,6 @@ require("blocks/crafter/fuser");
 var o = 1;
 
 Events.on(ClientLoadEvent, () => {
-    
-var credits = new BaseDialog("ExtendMind | Credits");
-
-    credits.buttons.defaults().size(210, 64);
-    credits.buttons.button("@close", run(() => {
-        dialog.hide();
-    })).size(210, 64);
-
-    credits.cont.pane((() => {
-
-        var table = new Table();
-        table.add("[white]<< Credits >>", Styles.techLabel).row();
-        table.row();
-	table.add("Following People helped me with that mods: \n[cyan]lol02[]: Author of this Mod, and main scripter. Also does all thus sprites.\n [stat]Rine: Giving ideas and helping me with that Mod.");
-      return table;
-    })()).grow().center().maxWidth(620);
-    credits.show();
 	
 	var dialog = new BaseDialog("ExtendMind | Welcome Screen");
 
@@ -46,9 +29,6 @@ var credits = new BaseDialog("ExtendMind | Credits");
     infoDialog.buttons.button("@close", run(() => {
         infoDialog.hide();
     })).size(210, 64);
-	infoDialog.buttons.button(("Credits"), Styles.techLabel, () => {
-                credits.show();
-            });
 
     infoDialog.cont.pane((() => {
 
