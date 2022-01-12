@@ -44,7 +44,7 @@ Events.on(ClientLoadEvent, () => {
       return it;
     })()).grow().center().maxWidth(620);
 	
-	Vars.ui.custom.buttons.button("Info", Icon.Info,()=>{
+	Vars.ui.custom.buttons.button("Info", Icon.info,()=>{
 		Log.info("You opened info-tab "+o+"times.");
 		infoDialog.show();
 		o++;
