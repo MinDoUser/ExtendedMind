@@ -50,4 +50,7 @@ Events.on(ClientLoadEvent, () => {
 		o++;
 	});
 });
+Events.on(DepositEvent, (tile,item,amount) => {
+	Vars.ui.showInfoToast("Someone unloaded " amount+" units of "+item+"\n at "+tile".", 5);
+});
 
