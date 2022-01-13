@@ -42,7 +42,7 @@ Events.on(ClientLoadEvent, () => {
 	    	it.add("There are some funny and special as well as useful blocks and items. I think you try them yourself.").row();
 	    	it.add("[cyan]Thanks for Playing!",Styles.techLabel).row();
       return it;
-    })()).grow().center().maxWidth(900);
+    })()).grow().center().maxWidth(1000);
 	
 	Vars.ui.custom.buttons.button("Info", Icon.info,()=>{
 		Log.info("You opened [stat]ExtendedMind Info Tab[] "+o+" times.");
