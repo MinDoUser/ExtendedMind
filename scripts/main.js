@@ -37,12 +37,12 @@ Events.on(ClientLoadEvent, () => {
 		it.row();
 		it.add("[stat]< General Information >",Styles.techLabel).row();
 	    	it.add("This Mod is my first Mod on GitHub. It's still [scarlet]WIP[], so don't worry about unfinished parts.").row();
-	    	it.add("This Mod was also created, because I wanted to learn, how to use JS in Mods, so there are may some errors and [scarlet]CRASHES[].").row();
+	    	it.add("This Mod was also created, because I wanted to learn, how to use JS in Mods,\n so there are may some errors and [scarlet]CRASHES[].").row();
 	   	it.add("[stat]< Blocks and Items >",Styles.techLabel).row();
 	    	it.add("There are some funny and special as well as useful blocks and items. I think you try them yourself.").row();
 	    	it.add("[cyan]Thanks for Playing!",Styles.techLabel).row();
       return it;
-    })()).grow().center().maxWidth(620);
+    })()).grow().center().maxWidth(900);
 	
 	Vars.ui.custom.buttons.button("Info", Icon.info,()=>{
 		Log.info("You opened info-tab "+o+"times.");
