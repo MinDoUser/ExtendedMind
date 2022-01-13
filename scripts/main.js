@@ -45,7 +45,7 @@ Events.on(ClientLoadEvent, () => {
     })()).grow().center().maxWidth(900);
 	
 	Vars.ui.custom.buttons.button("Info", Icon.info,()=>{
-		Log.info("You opened info-tab "+o+"times.");
+		Log.info("You opened [stat]ExtendedMind Info Tab[] "+o+" times.");
 		infoDialog.show();
 		o++;
 	});
