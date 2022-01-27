@@ -5,7 +5,7 @@ size: 1
 health: 320
 reloadTime: 14
 bulletDamage: 3.46
-range: 130
+range: 110
 consumes: {
   power: 1.22
 }
