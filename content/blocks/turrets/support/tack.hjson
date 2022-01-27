@@ -1,0 +1,18 @@
+type: PointDefenseTurret
+name: "Tack"
+description: "Simple PointDefenseTurret."
+size: 1
+health: 320
+reloadTime: 14
+bulletDamage: 3.46
+range: 130
+consumes: {
+  power: 1.22
+}
+requirements: [
+  copper/45
+  lead/163
+  graphite/37
+]
+category: turret
+research: arc
