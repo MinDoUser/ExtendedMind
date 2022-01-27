@@ -1,6 +1,10 @@
 require("blocks/crafter/fuser");
 
 var o = 1;
+Events.on(TapEvent, tap => {
+	Sounds.click.at(tap.x, tap.y);
+	Log.info("You clicked on: "+ tap.x+","+ tap.y+".");
+});
 
 Events.on(ClientLoadEvent, () => {
 	
