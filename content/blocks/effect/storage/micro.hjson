@@ -1,0 +1,13 @@
+type: StorageBlock
+name: "Micro Storage"
+description: "Very small storage-block. Use it as a buffer."
+details: "Not useful at all. \n\n Mainly used as a buffer."
+size: 1
+health: 125
+itemCapacity: 30
+category: effect
+requirements: [
+  copper/120
+  lead/75
+  graphite/20
+]
