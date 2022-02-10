@@ -1,4 +1,4 @@
-require("blocks/crafter/fuser");
+//require("blocks/crafter/fuser"); No.
 
 var o = 1;
 
