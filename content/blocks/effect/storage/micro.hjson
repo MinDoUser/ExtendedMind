@@ -5,9 +5,11 @@ details: "Not useful at all. \n\n Mainly used as a buffer."
 size: 1
 health: 125
 itemCapacity: 30
+alwaysUnlocked: true
 category: effect
 requirements: [
   copper/120
   lead/75
   graphite/20
 ]
+research: core_shard
