@@ -12,4 +12,4 @@ requirements: [
   lead/75
   graphite/20
 ]
-research: core_shard
+research: core-shard
