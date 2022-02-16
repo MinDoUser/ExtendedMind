@@ -17,7 +17,7 @@ SettingDialog.cont.pane((() => {
 Events.on(ClientLoadEvent, () => {
     const settings = Vars.ui.settings;
     settings.game.row();
-    settings.game.button("ExtendedMind Settings"), Styles.cleart, () => {
+    settings.game.button("ExtendedMind Settings", Styles.cleart, () => {
                 SettingDialog.show();
             });
 });
