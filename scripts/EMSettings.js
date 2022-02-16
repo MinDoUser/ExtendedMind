@@ -9,7 +9,7 @@ SettingDialog.cont.pane((() => {
         var table = new Table();
         table.add("[white]<< Settings >>", Styles.techLabel).row();
         table.row();
-        for(x=0;0<5;x++){
+        for(var x=0;0<5;x++){
 	      table.checkPref("@placeholder"+x, true);
           //Doesn't do anything
         }
