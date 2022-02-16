@@ -1,3 +1,4 @@
+Events.on(ClientLoadEvent, () => {
 const SettingDialog = new BaseDialog("Extended Mind | Settings");
     SettingDialog.buttons.defaults().size(210, 64);
     SettingDialog.buttons.button("@close", run(() => {
@@ -14,7 +15,6 @@ SettingDialog.cont.pane((() => {
         }
       return table;
     })()).grow().center().maxWidth(620);
-Events.on(ClientLoadEvent, () => {
     const settings = Vars.ui.settings;
     settings.game.row();
     settings.game.button("ExtendedMind Settings", Styles.cleart, () => {
