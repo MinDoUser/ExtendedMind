@@ -1,5 +1,5 @@
 //require("blocks/crafter/fuser"); No.
-require("EMSettings");
+//require("EMSettings"); No. Oof.
 Events.on(ClientLoadEvent, () => {
 	
 	var dialog = new BaseDialog("ExtendMind | Welcome Screen");
