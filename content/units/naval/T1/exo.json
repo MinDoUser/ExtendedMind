@@ -1,6 +1,6 @@
 {
     "localizedName": "Exo",
-    "description": "Throws cryo on enemy. Slows them down.",
+    "description": "Throws oil on enemy.",
   "details": "Support unit. Not usefull for attacking"
     "research": {
       "parent": "risso",
@@ -36,6 +36,7 @@
     "recoil": 1,
     "shake": 0.5,
     "ejectEffect": "none",
+    "mirror": false,
     "shootSound": "shoot",
            "bullet": { 
               "type": "LiquidBulletType",
@@ -45,7 +46,7 @@
                 "drag": 0.01,
                 "orbSize": 4,
                 "puddleSize": 3,
-                "liquid": "cryofluid"
+                "liquid": "oil"
            }
 	}
 ]
