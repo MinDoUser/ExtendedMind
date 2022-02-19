@@ -1,0 +1,53 @@
+{
+    "localizedName": "Exo",
+    "description": "Throws cryo on enemy. Slows them down.",
+  "details": "Support unit. Not usefull for attacking"
+    "research": {
+      "parent": "risso",
+      "requirements": [
+       "lead/750",
+        "graphite/490",
+      "silicon/350"
+  ]
+}
+    "type": "naval",
+    "speed": 1.5,
+    "armor": 1,
+    "drag": 0.15,
+	"targetAir": true,
+    "hitSize": 12,
+    "health": 470,
+    "accel": 0.3,
+    "rotateSpeed": 3.3,
+    "trailLength": 17,
+    "trailX": 5.5,
+    "trailY": -4,
+    "trailScl": 1.9,
+    "rotateShooting": false,
+	"weapons": [
+		{
+   "name": "purple-liquid-mount",
+    "top": true,
+    "y": -1,
+    "x": 0,
+    "rotate": true,
+    "rotateSpeed": 1.8,
+    "reload": 10,
+    "recoil": 1,
+    "shake": 0.5,
+    "ejectEffect": "none",
+    "shootSound": "shoot",
+           "bullet": { 
+              "type": "LiquidBulletType",
+               "damage": 6,
+                "speed": 2,
+                "lifetime": 70,
+                "drag": 0.01,
+                "orbSize": 4,
+                "puddleSize": 3,
+                "liquid": "cryofluid"
+           }
+			}
+		}
+	]
+}
