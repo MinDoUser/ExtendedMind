@@ -1,7 +1,7 @@
 type: UnitFactory
 name: "EM's Naval Factory"
 description: "Produces Naval units of [stat]Extended Mind Mod[]. They can used as they are or putted into a reconstructor to improve them."
-details: "EM = Extended Mind"
+details: "[stat]EM = Extended Mind"
 size: 3
 consumes: {
   power: 1.66
@@ -20,7 +20,7 @@ plans: [
 requirements: [
   copper/200
   lead/75
-  metaglas/100
+  metaglass/100
   silicon/25
 ]
 research: naval-factory
